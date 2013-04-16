@@ -14,3 +14,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Requirements
 
 Tested with node 0.8.x
+
+## Usage
+
+run agent.js
+
+access http://ip:8080/me
+
+have anyone that wants to contact you visit http://ip:8080
