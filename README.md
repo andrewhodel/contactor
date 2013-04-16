@@ -22,3 +22,5 @@ run agent.js
 access http://ip:8080/me
 
 have anyone that wants to contact you visit http://ip:8080
+
+think one agent per user, not typical server style
