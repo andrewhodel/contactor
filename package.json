@@ -2,7 +2,7 @@
   "name": "contactor",
   "subdomain": "ahc1",
   "scripts": {
-    "start": "node server.js"
+    "start": "node agent.js"
   },
   "dependencies": {
     "holla": "0.6.x",
