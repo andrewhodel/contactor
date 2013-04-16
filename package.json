@@ -1,0 +1,15 @@
+{
+  "name": "contactor",
+  "subdomain": "ahc1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "holla": "0.6.x",
+    "express": "3.2.x"
+  },
+  "version": "0.0.0-6",
+  "engines": {
+    "node": "0.8.x"
+  }
+}

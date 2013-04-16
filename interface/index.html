@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contactor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/effects.css">
+    <style>
+      body {
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+      }
+
+      .vid {
+        width: 300px;
+        height: 300px;
+	border: 1px solid #000;
+      }
+      
+      #vc {
+	display: none;
+      }
+
+    </style>
+  </head>
+  <body>
+
+<div id="nb">
+<p>Enter your name to contact 'siteownerprettyname': </p>
+<input type="text" id="yourname" /> <input type="button" id="makeContact" value="Contact" />
+</div>
+
+    <div id="vc">
+	<p id="yournamebox"></p>
+      <video id="vthem" class="vid" autoplay="true"></video>
+      <video id="vme" class="vid" autoplay="true" muted="true"></video>
+      <input type="button" id="hangup" value="hangup" />
+    </div>
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="https://raw.github.com/wearefractal/holla/master/holla.min.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
